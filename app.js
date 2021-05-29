@@ -100,7 +100,7 @@ function getTodos(){
     //check local storage
     let todos;
     if(localStorage.getItem('todos') === null){
-        odos = [];
+        todos = [];
     }else{
         todos = JSON.parse(localStorage.getItem('todos'));
     }
